@@ -1,0 +1,446 @@
+body{
+  position: relative;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+a,h1,h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.39);
+  z-index: 10;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  transition: all 0.3 ease;
+  background-color: white;
+  z-index: 11;
+}
+
+#home {
+  margin-top: 70px;
+  border: 1px solid white;
+  height: 100vh;
+}
+
+.navbar {
+margin-right: 0;
+width: 100%;
+min-height: 70px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 60;
+}
+.nav-menu { 
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 60px;
+margin-right: 10px;
+}
+
+.logo {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100px;
+  height: auto;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  display: block;
+  color: rgb(199, 199, 199);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: #dddddd3f;
+  color: rgb(255, 255, 255);
+}
+
+
+  
+  .landing-page {
+    background-image: url('../img/bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+ 
+  }
+
+  .landing-page-text{
+    text-align: center;
+    
+    margin-top: 0px;
+
+  }
+  
+
+  .landing-page-text h1{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    transform: translateY(300px);
+
+  }
+  .landing-page-text h2{
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    transform: translateY(300px);
+  }
+
+  .about-me {
+    background-color: rgb(248, 189, 111);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+    
+    position: relative;
+
+  }
+  
+  .about-me-text {
+    text-align: center;
+    
+    margin-top: 300px;
+  }
+  
+  .about-me-text h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    
+  
+  
+  }
+
+  .about-me-text h2 {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 500px;
+    margin-left: 33%;
+    margin-right: 33%;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .blender-box {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+  }
+
+  .blender-logo{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  .blender-box h1 {
+    font-size: 30px;
+    color: rgb(46, 46, 46);
+    font-weight: bold;
+  }
+  .blender-box h2{
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    line-height: 1.5;
+  }
+
+
+  .portfolio {
+    background-color: rgb(235, 235, 235);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+    position: relative;
+
+  }
+  
+  .portfolio-text {
+    text-align: center;
+    
+    margin-top: 100px;
+   
+  }
+  
+  .portfolio-text h1 {
+    font-size: 60px;
+    color: rgb(24, 24, 24);
+    font-weight: bold;
+  }
+
+  .portfolio-text h2 {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .portfolio-video {
+    margin-top: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+ 
+
+  }
+  
+ .project-box{
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 150px;
+ }
+
+ .project-box h1 {
+  font-size: 30px;
+  color: rgb(46, 46, 46);
+  font-weight: bold;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+.project-box h2{
+  font-size: 16px;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: rgb(46, 46, 46);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.images-container {
+  display: flex;
+  margin: 20px 20px 100px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.images-container img {
+  max-width: 20%;
+  margin: 0 10px;
+}
+
+
+
+
+/* Media Query for responsive design */
+@media only screen and (max-width: 600px) {
+	.picture-container {
+		width: 100%;
+	}
+}
+
+  .contact {
+    background-color: rgb(248, 189, 111);
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    
+    position: relative;
+
+  }
+  
+  .contact-text {
+    text-align: center;
+    
+    margin-top: 100px;
+  }
+  
+  .contact-text h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .contact-text h2 {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .contact-text h3 {
+    text-decoration: underline;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+
+
+
+    @media screen and (max-width: 800px) {
+
+      .hamburger{
+        display: block;
+      }
+
+      .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+      }
+      .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+            }
+      .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+      }
+      .nav-menu {
+        position: fixed;
+        right: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        height: 94%;
+        text-align: center;
+        transition: 0.3s;
+        margin-right: 0;
+
+      }
+
+      .nav-item a{
+        font-size: 30px;
+     
+      }
+
+      .nav-link {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+      }
+
+      .nav-item{
+        margin: 0px 0;
+      }
+      .nav-menu.active {
+        right: 0;
+      }
+
+      .landing-page-text h1{
+        font-size: 40px;
+
+    
+      }
+      .landing-page-text h2{
+        font-size: 20px;
+
+      }
+      .about-me-text h1{
+        font-size: 40px;
+      }
+      .about-me-text h2{
+        font-size: 20px;
+
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+
+      .blender-box {
+
+        height: 650px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 100px;
+      }
+      .blender-box h1 {
+        font-size: 30px;
+      }
+      .blender-box h2 {
+        font-size: 17px;
+      }
+      .portfolio-video {
+        size: 30%;
+      }
+
+      .project-box{
+        margin-left: 10%;
+        margin-right: 10%;
+       }
+       .project-box h1 {
+        font-size: 20px;
+       }
+       .project-box h2 {
+        font-size: 16px;
+       }
+       
+.images-container {
+  display: flex;
+  margin: 20px 20px 100px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.images-container img {
+  max-width: 40%;
+  margin: 0 10px;
+}
+.contact-text h3 {
+  font-size: 20px;
+}
+    }

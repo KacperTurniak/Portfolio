@@ -1,0 +1,287 @@
+    nav ul {
+    display: none;
+    }
+    .logo {
+    width: 70px;
+    }
+    nav li a {
+    display: block;
+    text-align: center;
+    }
+    .landing-page-text h1 {
+    font-size: 40px;
+    transform: translateY(200px);
+    }
+    .landing-page-text h2 {
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    transform: translateY(200px);
+    }
+    .about-me-text h1 {
+    font-size: 40px;
+    }
+    .about-me-text h2 {
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    .blender-box h1 {
+    font-size: 20px;
+    }
+    .blender-box h2 {
+    font-size: 14px;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    .adobe-animate-box h1 {
+    font-size: 20px;
+    }
+    .adobe-animate-box h2 {
+    font-size: 14px;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    .contact-me-text h1 {
+    font-size: 40px;
+    }
+    .contact-me-text h2 {
+      font-size: 16px;
+      margin: left 50px;
+    }
+    .adobe-animate-logo{
+      position: relative;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      }
+      
+      .adobe-animate-box h1 {
+      font-size: 30px;
+      color: white;
+      font-weight: bold;
+      }
+      
+      .adobe-animate-box h2{
+      font-size: 16px;
+      margin-top: 50px;
+      margin-left: 10%;
+      margin-right: 10%;
+      color: white;
+      text-align: center;
+      line-height: 1.5;
+      }
+      
+      .skills {
+      background-color: rgb(220, 220, 220);
+      height: auto;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      }
+      
+      .skills .skills-text {
+      margin-top: 50px;
+      }
+      
+      .skills .skills-text h1 {
+      font-size: 60px;
+      font-weight: bold;
+      color: rgb(46, 46, 46);
+      }
+      
+      .skills .skills-text h2 {
+      font-size: 20px;
+      margin-top: 50px;
+      margin-left: 10%;
+      margin-right: 10%;
+      color: rgb(46, 46, 46);
+      text-align: center;
+      line-height: 1.5;
+      }
+      
+      .skills .skills-list {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      }
+      
+      .skills .skills-list li {
+      background-color: rgb(46, 46, 46);
+      color: white;
+      font-size: 20px;
+      margin: 5px;
+      padding: 10px;
+      list-style: none;
+      border-radius: 10px;
+      }
+      
+      .contact {
+      background-color: rgb(46, 46, 46);
+      height: auto;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      }
+      
+      .contact .contact-form {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      }
+      
+      .contact .contact-form h1 {
+      font-size: 60px;
+      font-weight: bold;
+      color: white;
+      }
+      
+      .contact .contact-form label {
+      font-size: 20px;
+      margin-top: 30px;
+      color: white;
+      }
+      
+      .contact .contact-form input[type="text"], .contact .contact-form input[type="email"], .contact .contact-form textarea {
+      font-size: 20px;
+      margin-top: 10px;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      }
+      
+      .contact .contact-form textarea {
+      height: 150px;
+      resize: none;
+      }
+      
+      .contact .contact-form input[type="submit"] {
+      background-color: white;
+      color: rgb(46, 46, 46);
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 20px;
+      cursor: pointer;
+      }
+      
+      @media only screen and (max-width: 768px) {
+      .logo {
+      width: 70px;
+      }
+      nav li a {
+      font-size: 14px;
+      padding: 10px;
+      }
+      .landing-page-text h1 {
+      font-size: 40px;
+      }
+      .adobe-animate-box {
+        background-color: rgb(46, 46, 46);
+        height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 50px;
+      }
+      
+      .adobe-animate-logo{
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      
+      .adobe-animate-box h1 {
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+      }
+      
+      .adobe-animate-box h2{
+        font-size: 16px;
+        margin-top: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+        color: white;
+        text-align: center;
+        line-height: 1.5;
+      }
+      
+      .footer {
+        background-color: rgb(46, 46, 46);
+        height: auto;
+        margin-top: 50px;
+      }
+      
+      .footer-text {
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      .footer-text p {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+      }
+      
+      @media (max-width: 768px) {
+        .logo {
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 1;
+          width: 70px;
+          height: auto;
+          margin-top: 10px;
+          margin-left: 10px;
+        }
+        nav li a {
+          padding: 10px;
+        }
+        .landing-page-text h1{
+          font-size: 40px;
+        }
+        .landing-page-text h2{
+          font-size: 20px;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+        .about-me-text h1 {
+          font-size: 40px;
+        }
+        .about-me-text h2 {
+          font-size: 16px;
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+        .blender-box h1 {
+          font-size: 20px;
+        }
+        .blender-box h2 {
+          font-size: 14px;
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+        .adobe-animate-box h1 {
+          font-size: 20px;
+        }
+        .adobe-animate-box h2 {
+          font-size: 14px;
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+        .footer-text p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
