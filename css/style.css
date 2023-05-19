@@ -58,13 +58,18 @@ margin-right: 10px;
 
 .logo {
   position: relative;
-  top: 0;
-  left: 0;
+
   z-index: 1;
   width: 100px;
   height: auto;
   margin-top: 0px;
-  margin-left: 10px;
+  margin-left: 20px;
+  color: white;
+
+  font-weight: bold ;
+
+letter-spacing: 1px;
+line-height: 23px;
 }
 nav li {
   list-style: none;
@@ -85,7 +90,7 @@ nav li a:hover {
 
   
   .landing-page {
-    background-image: url('../img/bg.jpg');
+    background-image: url('../img/bg.jpg.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,11 +103,21 @@ nav li a:hover {
 
   .landing-page-text{
     text-align: center;
-    
     margin-top: 0px;
 
   }
   
+  .pf {
+        position: relative;
+    margin-top: 150px;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    margin-bottom: -260px;
+    align-items: center;
+
+  }
 
   .landing-page-text h1{
     font-size: 60px;
@@ -115,7 +130,7 @@ nav li a:hover {
   .landing-page-text h2{
     font-size: 35px;
     font-style: italic;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-left: 30%;
     margin-right: 30%;
     color: white;
@@ -202,6 +217,7 @@ nav li a:hover {
     justify-content: center;
     padding-bottom: 200px;
     position: relative;
+    margin-top: 0;
 
   }
   
@@ -228,18 +244,7 @@ nav li a:hover {
     line-height: 1.5;
   }
 
-  .portfolio-video {
-    margin-top: 200px;
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 80%;
-    height: 80%;
-    align-items: center;
- 
 
-  }
-  
  .project-box{
   background-color: rgb(255, 255, 255);
   height: 400px;
@@ -266,7 +271,6 @@ nav li a:hover {
 }
 
 .images-container {
-  display: flex;
   margin: 20px 20px 100px;
 
   justify-content: center;
@@ -274,9 +278,55 @@ nav li a:hover {
 }
 
 .images-container img {
-  max-width: 20%;
-  margin: 0 10px;
+  position: relative;
+  max-width: 30%;
+  margin: 100px 10px;
 }
+
+.thumbnail {
+  position: relative;
+  background-color: rgb(226, 226, 226);
+  height: 400px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.title{
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  padding: 10px 10px 10px 10px;
+  margin-left: 20%;
+  margin-right: 18%;
+  width: 60%;
+  text-align: center;
+}
+
+.thumbnail img {
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+  width: 50%;
+
+
+}
+
+.title:hover {
+  color: rgb(248, 189, 111);
+  background-color: white;
+  padding: 20px 15px 20px 15px;
+
+
+}
+
+
 
 
 
@@ -387,7 +437,9 @@ nav li a:hover {
     
       }
       .landing-page-text h2{
-        font-size: 20px;
+        font-size: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
 
       }
       .about-me-text h1{
@@ -415,18 +467,66 @@ nav li a:hover {
       }
       .portfolio-video {
         size: 30%;
+        margin-top: 5%;
+        margin-bottom: 5%;
       }
 
       .project-box{
+        margin-top: 5%;
         margin-left: 10%;
         margin-right: 10%;
        }
        .project-box h1 {
-        font-size: 20px;
+        font-size: 15px;
+        line-height: 22px;
        }
        .project-box h2 {
-        font-size: 16px;
+        font-size: 14px;
        }
+       .pf {
+         width: 80%;
+         margin-left: 10%;
+         margin-right: 10%;
+       }
+
+  
+       .thumbnail {
+        position: relative;
+        background-color: rgb(226, 226, 226);
+        height: 250px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 150px;
+        margin-bottom: 150px;
+      }
+      
+      .thumbnail a{
+        color: black;
+        text-decoration: none;
+        font-size: 15px;
+
+        margin-top: 2%;
+        margin-bottom: 10%;
+        padding: 10px 10px 10px 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 60%;
+        text-align: center;
+      }
+      
+      .thumbnail img {
+        background-color: white;
+        padding: 10px 10px 10px 10px;
+        margin-top: 10%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 5%;
+        width: 70%;
+      
+      
+      }
+      
+
        
 .images-container {
   display: flex;
@@ -441,6 +541,6 @@ nav li a:hover {
   margin: 0 10px;
 }
 .contact-text h3 {
-  font-size: 20px;
+  font-size: 15px;
 }
     }
