@@ -30,63 +30,7 @@ function closePopup() {
 
 
 
-$(document).ready(function() {
-  // Handle form submission
-  $(".contact-container .send-button").click(function() {
-    var message = $(".contact-container .message textarea").val();
-    var email = $(".contact-container .email input[type='email']").val();
 
-    // Perform any necessary actions with the message and email
-    // e.g., send them to a server
-
-    // Clear the message and email inputs
-    $(".contact-container .message textarea").val("");
-    $(".contact-container .email input[type='email']").val("");
-
-    // Display Send Pop-up
-    showSendPopup();
-  });
-
-  // Handle booking
-  $(".booking-container .booking-button").click(function() {
-    var selectedDate = $("#booking-date").val();
-    var selectedTime = $("#booking-time").val();
-
-    if (selectedDate === "" || selectedTime === "") {
-      // Show an error message if the user hasn't selected a date or time
-      alert("Please select a date and time for your booking.");
-      return;
-    }
-
-    // Display the booking details in Booking Pop-up
-    var bookingDetails = "Your booking has been confirmed for " + selectedDate + " at " + selectedTime + ".";
-    $("#booking-details").text(bookingDetails);
-
-    // Display Booking Pop-up
-    showBookingPopup();
-  });
-
-  // Close button event listener for both pop-ups
-  $(".close-button").click(function() {
-    closePopup2();
-  });
-});
-
-// Function to display Send Pop-up
-function showSendPopup() {
-  $("#send-popup").fadeIn();
-}
-
-// Function to display Booking Pop-up
-function showBookingPopup() {
-  $("#booking-popup").fadeIn();
-}
-
-// Function to close the currently displayed pop-up
-function closePopup2() {
-  $(".popup2").fadeOut();
-  $("body").removeClass("visible");
-}
 
 
 // Show description pop-up on hover
