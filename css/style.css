@@ -168,7 +168,7 @@ header {
   margin-right: 6rem;
   margin-bottom: 3rem;
   margin-top: 6rem;
-  background-image: url(/img/foto\ cv\ en\ portfolio.png);
+  background-image: url(../img/foto\ cv\ en\ portfolio.png);
   background-size: cover;
 }
 .grid-container { 
@@ -207,16 +207,16 @@ header {
   letter-spacing: 0.2rem;
 }
 .item-1 {
-  background-image: url(/img/1.png);
+  background-image: url(../img/1.png);
 }
 .item-2 {
-  background-image: url(/img/6.png);
+  background-image: url(../img/6.png);
 }
 .item-3 {
-  background-image: url(/img/11.png);
+  background-image: url(../img/11.png);
 }
 .item-4 {
-  background-image: url(/img/14.png); 
+  background-image: url(../img/14.png); 
   grid-column-start: 1;
   grid-column-end: 4;
 }
