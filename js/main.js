@@ -13,7 +13,7 @@ function showPopup(title, description, item) {
   // Reset image sources
   for (let i = 0; i < imagePlaceholders.length; i++) {
     const imageIndex = startIndex + i + 1;
-    imagePlaceholders[i].style.backgroundImage = `url(../img/${imageIndex}.png)`;
+    imagePlaceholders[i].style.backgroundImage = `url(/img/${imageIndex}.png)`;
   }
 
   popup.style.opacity = '1';
